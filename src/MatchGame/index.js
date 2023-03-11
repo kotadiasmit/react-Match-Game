@@ -322,7 +322,7 @@ class MatchGame extends Component {
     const matchImageUrl = imagesList.find(each => each.id === matchImageId)
       .imageUrl
     return (
-      <div>
+      <div className="screenSize">
         <nav className="nav-bar">
           <img
             alt="website logo"
